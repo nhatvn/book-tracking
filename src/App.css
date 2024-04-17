@@ -1,0 +1,119 @@
+.my-reads {
+  background: green;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  margin-top: 0;
+}
+
+.box-container {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.bookshelf-title {
+  border-bottom: 1px solid #c5c5c5;
+  padding-bottom: 5px;
+}
+
+.book-list-container {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-list-container>li {
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 150px;
+}
+
+.book-image {
+  width: 128px;
+  height: 193px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position: relative;
+}
+
+.book-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.book-shelf-change {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #5dad59;
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+  overflow: hidden;
+  background-image: url(./icons/arrow-drop-down.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.book-select {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.book-title {
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.book-author {
+  font-weight: 700;
+  color: grey;
+}
+
+.search-book {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  background-color: #2a7e2e;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url(./icons/add.svg);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.search-container {
+  display: flex;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 18px 0px 10px 8px;
+}
+
+.search-input {
+  width: 100%;
+  border: 0;
+  outline: none;
+}
+
+.close-search {
+  background-image: url(./icons/arrow-back.svg);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.search-book-result {
+  margin-top: 50px;
+}
